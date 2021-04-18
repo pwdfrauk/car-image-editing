@@ -9,6 +9,9 @@ function clossNav() {
 	mobileNav.style.width = "0%";
 	console.log('mobile nav is closing')
 };
+
+
+
 // counter section js 
 window.onload = main;
 const counters = document.querySelectorAll('.counter');
