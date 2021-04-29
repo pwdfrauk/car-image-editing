@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="en"> 
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="favicon.png">
+    <title>car image editing servece</title>
+	<!-- animate css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+	<!--font awesome cdn  -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- uikit css -->
+    <link rel="stylesheet" type="text/css" href="vendors/css/uikit.min.css">
+    <!-- main style css -->
+    <link rel="stylesheet" type="text/css" href="asset/css/style.css">
+    <!-- Owl carousel -->
+    <link rel="stylesheet" type="text/css" href="vendors/css/owl.carousel.min.css">
+
+  </head>
+  <body>
+  	<header>
+  		<div class="container">
+  		  		<nav class="main-nav">
+		  			<div class="main-nav-logo">
+		  				<img src="images/logo.png"> 
+		  			</div>
+		  			<div class="main-nav-link">
+		  				<ul class="nav">
+		  					<li><a class="active" href="#">Home</a></li>
+		  					<li><a href="aboutus.html">About Us</a></li>
+		  					<li><a href="contactus.html">Contact us</a></li>
+		  					<li><a href="blog.html">Blog</a></li>
+		  				</ul>
+		  				<div class="mobile-menu">
+							<span onClick="openNav()" class="mobile-menu-icon"><i class="fas fa-bars"></i></span>
+							<div id="mobilenav" class="overlay">
+								<a  onClick="clossNav()" href="javascript:void(0)" class="closebtn"><i class="fas fa-times"></i></a>
+								<div class="overlay-content">
+									<a onClick="clossNav()" href="#">home</a>
+									<a onClick="clossNav()" href="aboutus.html">About Us</a>
+									<a onClick="clossNav()" href="contactus.html">Contact us</a>
+									<a onClick="clossNav()" href="blog.html">Blog</a>
+								</div>
+							</div>
+						</div>
+		  			</div>
+  				</nav>
+  		</div>
+  	</header>
+  <section class="hero-slider-section">	
+		 <div class="container hero-slider-area">
+			 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+			  <ol class="carousel-indicators">
+			    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+			    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+			    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+			  </ol>
+			  <div class="carousel-inner">
+			    <div class="carousel-item active">
+			    	<div class="row p-md-4">
+			    		<div class="col-md-6 pl-md-4">
+			    			 <h2 class="wow animate__animated animate__slideInLeft" data-wow-duration="2s">Automotive Images Editeing Service</h2>
+			    			<h3>1.5 Million Images</h3>
+			    			<h4>Background Removal Done</h4>
+			    			<a class="btn-1" href="#">Get Custom Quote</a>
+			    		</div>
+			    		<div class="col-md-6 slider-images  wow animate__animated animate__slideInRight"  data-wow-duration="2s">
+			    			<img class="d-block w-100" src="images/car-2.jpg" alt="First slide">
+			    		</div>
+			    	</div>
+			    </div>
+			    <div class="carousel-item">
+			    	<div class="row p-md-4">
+			    		<div class="col-md-6 pl-md-4">
+			    			 <h2 class="wow animate__animated animate__slideInLeft" data-wow-duration="2s">Automotive Images Editeing Service</h2>
+			    			<h3>1.5 Million Images</h3>
+			    			<h4>Background Removal Done</h4>
+			    			<a class="btn-1" href="#">Get Custom Quote</a>
+			    		</div>
+			    		<div class="col-md-6 slider-images  wow animate__animated animate__slideInRight"  data-wow-duration="2s">
+			    			<img class="d-block w-100" src="images/car-3.jpg" alt="First slide">
+			    		</div>
+			    	</div>
+			    </div>
+			    <div class="carousel-item">
+			      <div class="row p-md-4">
+			    		<div class="col-md-6 pl-md-4">
+			    			 <h2 class="wow animate__animated animate__slideInLeft" data-wow-duration="2s">Automotive Images Editeing Service</h2>
+			    			<h3>1.5 Million Images</h3>
+			    			<h4>Background Removal Done</h4>
+			    			<a class="btn-1" href="#">Get Custom Quote</a>
+			    		</div>
+			    		<div class="col-md-6 slider-images  wow animate__animated animate__slideInRight"  data-wow-duration="2s">
+			    			<img class="d-block w-100" src="images/car1.jpg" alt="First slide">
+			    		</div>
+			    	</div>
+			    </div>
+			  </div>
+			  	<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Previous</span>
+			  	</a>
+			  	<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Next</span>
+			  	</a>
+			</div>
+		 </div>   
+ </section>
+ <!-- SERVICE SECTION  -->
+ <section class="service-section">
+ 	<div class="container ">
+ 		<div class="row servece-section-area">
+ 			<div class="col-md-4">
+ 				<div class="card servece-iteam wow animate__animated animate__slideInLeft">
+ 					<div class="servece-icon d-flex justify-content-center align-items-center">
+ 						<i class="fas fa-car-side"></i>
+ 					</div>
+ 					<div class="servece-info">
+ 						<h2 class="title">Automotive Dealer Image solution</h2>
+ 						<p class="title-info">There are many variations of passagesof Lorem Ipsum available, but the majority </p>
+ 					</div>
+ 				</div>
+ 			</div>
+ 			<div class="col-md-4">
+ 				<div class="card servece-iteam wow animate__animated animate__slideInUp">
+ 					<div class="servece-icon d-flex justify-content-center align-items-center">
+ 						<i class="fas fa-images"></i>
+ 					</div>
+ 					<div class="servece-info">
+ 						<h2 class="title">Vehicles background replacement</h2>
+ 						<p class="title-info">There are many variations of passagesof Lorem Ipsum available, but the majority </p>
+ 					</div>
+ 				</div>
+ 			</div>
+ 			<div class="col-md-4">
+ 				<div class="card servece-iteam wow animate__animated animate__slideInRight">
+ 					<div class="servece-icon d-flex justify-content-center align-items-center">
+ 						<i class="far fa-heart"></i>
+ 					</div>
+ 					<div class="servece-info">
+ 						<h2 class="title">Vehicles color correction service</h2>
+ 						<p class="title-info">There are many variations of passagesof Lorem Ipsum available, but the majority </p>
+ 					</div>
+ 				</div>
+ 			</div>
+ 		</div>
+ 	</div>
+ </section>
+ 
+ <section class="our-company-section">
+ 	<div class="container">
+ 		<div class="row">
+ 			<div class="col-md-6 ">
+ 				<div class="our-company-info">
+	 				<h6>OUR COMPANY</h6>
+	 				<h2 class="title">We’ve been triumphing all these 10 years.</h2>
+	 				<h3>Sacrifices are made up with success.</h3>
+	 				<p class="title-info">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+	 				<a class="btn-1" href="#">Find out more</a>
+ 				</div>
+ 			</div>
+ 			<div class="col-md-6 our-company-video d-flex align-items-center">
+ 				<!-- if you are use iframe sec linke then remove the image-video-area -->
+ 				<!-- <iframe src=""></iframe> -->
+ 				<!-- image video area -->
+ 				<div class="iframe-rep-image">
+ 					<iframe width="560" height="315" src="https://www.youtube.com/embed/F1g-gljhG-I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ 					<!-- <img src="images/companywin.jpg">
+ 					<div class="overly-with-icon">
+ 						<div class="icon-area">
+ 							<i class="fas fa-play"></i>
+ 						</div>
+ 					</div> -->
+ 				</div>
+ 			</div>
+ 		</div>
+ 	</div>
+ </section>
+ <!-- our client section -->
+ <section class="our-client-section">
+ 	<div class="container">
+ 		<h2 class="section-title">Some Our Clients</h2>
+ 		<div class="row">
+ 			<div class="col-md-2">
+ 				<img class="card" src="images/Audi-logo.png">
+ 			</div>
+ 			<div class="col-md-2">
+ 				<img class="card" src="images/Lexus-logo.png">
+ 			</div>
+ 			<div class="col-md-2">
+ 				<img class="card" src="images/BMW-logo.png">
+ 			</div>
+ 			<div class="col-md-2">
+ 				<img class="card" src="images/Audi-logo.png">
+ 			</div>
+ 			<div class="col-md-2">
+ 				<img class="card" src="images/BMW-logo.png">
+ 			</div>
+ 			<div class="col-md-2">
+ 				<img class="card" src="images/Ford-logo.png">
+ 			</div>
+ 			<div class="col-md-2">
+ 				<img class="card" src="images/BMW-logo.png">
+ 			</div>
+ 			<div class="col-md-2">
+ 				<img class="card" src="images/Audi-logo.png">
+ 			</div>
+ 			<div class="col-md-2">
+ 				<img class="card" src="images/Lexus-logo.png">
+ 			</div>
+ 			<div class="col-md-2">
+ 				<img class="card" src="images/Ford-logo.png">
+ 			</div>
+ 			<div class="col-md-2">
+ 				<img class="card" src="images/BMW-logo.png">
+ 			</div>
+ 			<div class="col-md-2">
+ 				<img class="card" src="images/Audi-logo.png">
+ 			</div>
+ 			<div class="col-md-2">
+ 				<img class="card" src="images/Audi-logo.png">
+ 			</div>
+ 			<div class="col-md-2">
+ 				<img class="card" src="images/Lexus-logo.png">
+ 			</div>
+ 			<div class="col-md-2">
+ 				<img class="card" src="images/BMW-logo.png">
+ 			</div>
+ 			<div class="col-md-2">
+ 				<img class="card" src="images/Audi-logo.png">
+ 			</div>
+ 			<div class="col-md-2">
+ 				<img class="card" src="images/BMW-logo.png">
+ 			</div>
+ 			<div class="col-md-2">
+ 				<img class="card" src="images/Ford-logo.png">
+ 			</div>
+ 			<div class="col-md-2">
+ 				<img class="card" src="images/BMW-logo.png">
+ 			</div>
+ 			<div class="col-md-2">
+ 				<img class="card" src="images/Audi-logo.png">
+ 			</div>
+ 			<div class="col-md-2">
+ 				<img class="card" src="images/Lexus-logo.png">
+ 			</div>
+ 			<div class="col-md-2">
+ 				<img class="card" src="images/Ford-logo.png">
+ 			</div>
+ 			<div class="col-md-2">
+ 				<img class="card" src="images/BMW-logo.png">
+ 			</div>
+ 			<div class="col-md-2">
+ 				<img class="card" src="images/Audi-logo.png">
+ 			</div>
+ 		</div>
+ 	</div>
+   <!--      <div class="our-client owl-carousel owl-theme">
+            <div class="clients-logo-area">
+            <img src="images/Lexus-logo.png">
+            </div>
+            <div class="clients-logo-area">
+            <img src="images/BMW-logo.png">
+            </div>
+            <div class="clients-logo-area">
+            <img src="images/Audi-logo.png">
+            </div>
+            <div class="clients-logo-area">
+            <img src="images/Ford-logo.png">
+            </div>
+        </div> -->
+    </div>
+ </section>
+ <!-- inventory section -->
+ <section class="inventory-dealer-section">
+ 	<div class="container">
+ 		<h2 class="section-title">Inventory Dealer Image Editing Solution</h2>
+ 		<div class="row">
+ 			<div class="col-md-4">
+ 				<div class="card inventory-iteam">
+ 					<div class="servece-icon d-flex align-items-center justify-content-center">
+ 						<i class="fas fa-sign-in-alt"></i>
+ 					</div>
+ 					<div class="inventory-info">
+ 						<h2 class="title">Login dealer site</h2>
+ 						<p class="title-info">Contrary to popular belief, Lorem Ipsumis not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 yearsold. Richard McClintock, a Latin</p>
+ 					</div>
+ 				</div>
+ 			</div>
+ 			<div class="col-md-4">
+ 				<div class="card inventory-iteam">
+ 					<div class="servece-icon d-flex align-items-center justify-content-center">
+ 						<i class="fas fa-sign-in-alt"></i>
+ 					</div>
+ 					<div class="inventory-info">
+ 						<h2 class="title">Vehicles clipping path</h2>
+ 						<p class="title-info">Contrary to popular belief, Lorem Ipsumis not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 yearsold. Richard McClintock, a Latin</p>
+ 					</div>
+ 				</div>
+ 			</div>
+ 			<div class="col-md-4">
+ 				<div class="card inventory-iteam">
+ 					<div class="servece-icon d-flex align-items-center justify-content-center">
+ 						<i class="fas fa-crop-alt"></i>
+ 					</div>
+ 					<div class="inventory-info">
+ 						<h2 class="title">Car Photo Enhancement</h2>
+ 						<p class="title-info">Contrary to popular belief, Lorem Ipsumis not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 yearsold. Richard McClintock, a Latin</p>
+ 					</div>
+ 				</div>
+ 			</div>
+ 			<div class="col-md-4">
+ 				<div class="card inventory-iteam">
+ 					<div class="servece-icon d-flex align-items-center justify-content-center">
+ 						<i class="fas fa-images"></i>
+ 					</div>
+ 					<div class="inventory-info">
+ 						<h2 class="title">Vehicles background replacement </h2>
+ 						<p class="title-info">Contrary to popular belief, Lorem Ipsumis not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 yearsold. Richard McClintock, a Latin</p>
+ 					</div>
+ 				</div>
+ 			</div>
+ 			<div class="col-md-4">
+ 				<div class="card inventory-iteam">
+ 					<div class="servece-icon d-flex align-items-center justify-content-center">
+ 						<i class="fas fa-hand-holding-heart"></i>
+ 					</div>
+ 					<div class="inventory-info">
+ 						<h2 class="title">Add your Company Logo </h2>
+ 						<p class="title-info">Contrary to popular belief, Lorem Ipsumis not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 yearsold. Richard McClintock, a Latin</p>
+ 					</div>
+ 				</div>
+ 			</div>
+ 			<div class="col-md-4">
+ 				<div class="card inventory-iteam">
+ 					<div class="servece-icon d-flex align-items-center justify-content-center">
+ 						<i class="fas fa-upload"></i>
+ 					</div>
+ 					<div class="inventory-info">
+ 						<h2 class="title">Publish</h2>
+ 						<p class="title-info">Contrary to popular belief, Lorem Ipsumis not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 yearsold. Richard McClintock, a Latin</p>
+ 					</div>
+ 				</div>
+ 			</div>
+ 			
+ 		</div>
+ 	</div>
+ </section>
+ <!-- want to see in action section -->
+ <section class="want-to-see-section wow animate__animated animate__pulse"  data-wow-duration="2s">
+ 	<div class="container">
+ 		<div class="row">
+ 			<div class="col-md-8">
+ 			<div class="want-to-see-info">
+ 				<h2>WANT TO SEE US IN ACTION?</h2>
+ 				<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected</p>
+ 			</div>
+ 		</div>
+ 		<div class="col-md-4 call-to-action">
+ 			<div class="">
+ 				<a class="btn-1" href="#">Let's Talk</a>
+ 				<a class="btn-2" href="#">Get A Quote</a>
+ 			</div>
+ 		</div>
+ 		</div>
+ 	</div>
+ </section>
+ <!-- our service section -->
+ <section class="our-service-section">
+ 	<div class="container">
+ 		<h2 class="section-title">Our Service</h2>
+ 		<div class="row">
+ 		<div class="col-md-12 col-xl-6">
+ 				<div class="card our-service-iteam">
+ 					<div class="row">
+ 						<div class="col-md-2 icon-area  pr-md-0 d-flex align-items-center">
+	 						<div class="icon">
+	 							<i class="fas fa-images"></i>
+	 						</div>
+ 						</div>
+ 						<div class="col-md-10 ">
+	 						<div class="our-service-info">
+	 							<h2 class="title">Car Image Background Removal</h2>
+	 							<p class="title-info">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richa Clintock, </p>
+	 							<a class=" title-link" href="#"> Discover now</a>
+	 						</div>
+ 						</div>
+ 					</div>
+ 				</div>
+ 			</div>
+ 			<div class="col-md-12 col-xl-6 ">
+ 				<div class="card our-service-iteam">
+ 					<div class="row">
+ 						<div class="col-md-2 icon-area pr-md-0 d-flex align-items-center">
+	 						<div class="icon">
+	 							<i class="fas fa-hand-holding-heart"></i>
+	 						</div>
+ 						</div>
+ 						<div class="col-md-10">
+	 						<div class="our-service-info">
+	 							<h2 class="title">Car Image  Color Correction Service</h2>
+	 							<p class="title-info">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richa Clintock, </p>
+	 							<a class=" title-link" href="#"> Discover now</a>
+	 						</div>
+ 						</div>
+ 					</div>
+ 				</div>
+ 			</div>
+ 			<div class="col-md-12 col-xl-6">
+ 				<div class="card our-service-iteam">
+ 					<div class="row">
+ 						<div class="col-md-2 icon-area pr-md-0 d-flex align-items-center">
+	 						<div class="icon">
+	 							<i class="fas fa-crop-alt"></i>
+	 						</div>
+ 						</div>
+ 						<div class="col-md-10">
+	 						<div class="our-service-info">
+	 							<h2 class="title">Car Tmage Retouching Service</h2>
+	 							<p class="title-info">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richa Clintock, </p>
+	 							<a class=" title-link" href="#"> Discover now</a>
+	 						</div>
+ 						</div>
+ 					</div>
+ 				</div>
+ 			</div>
+ 			<div class="col-md-12 col-xl-6">
+ 				<div class="card our-service-iteam">
+ 					<div class="row">
+ 						<div class="col-md-2 icon-area pr-md-0 d-flex align-items-center">
+	 						<div class="icon">
+	 							<i class="fas fa-upload"></i>
+	 						</div>
+ 						</div>
+ 						<div class="col-md-10">
+	 						<div class="our-service-info">
+	 							<h2 class="title">Car Image Reflection Shadow  </h2>
+	 							<p class="title-info">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richa Clintock, </p>
+	 							<a class=" title-link" href="#"> Discover now</a>
+	 						</div>
+ 						</div>
+ 					</div>
+ 				</div>
+ 			</div>
+ 		</div>
+ 	</div>
+ </section>
+      <!-- counter section  -->
+    <section class="counter-section">
+        <div class="container" id="counter-container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="conter-single">
+                         <div class="counter" data-target="550">120</div>
+                        <p>happy client</p>
+                    </div>
+                </div>
+                 <div class="col-md-3">
+                    <div class="conter-single">
+                         <div class="counter" data-target="700">300</div>
+                        <p>Finished projects</p>
+                    </div>
+                </div>
+                 <div class="col-md-3">
+                    <div class="conter-single">
+                         <div class="counter" data-target="500">100</div>
+                        <p>Skilled Expertst</p>
+                    </div>
+                </div>
+                 <div class="col-md-3">
+                    <div class="conter-single">
+                         <div class="counter" data-target="410">250</div>
+                        <p>Media Posts</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+ <!-- Our Sample Section -->
+ <section class="our-sample-section">
+ 	<div class="container ">
+ 		<h2 class="section-title">Our sample work</h2>
+			<div class="uk-child-width-1-3@m" uk-grid uk-lightbox="animation: slide">
+			    <div class="col-md-2 ">
+			    	<div class="single-sample">
+				        <a class="uk-inline" href="images/car1.jpg" data-caption="">
+				            <img class="card" src="images/car1.jpg" alt="">
+				        </a>
+			        </div>
+			    </div>
+			    <div class="col-md-2 ">
+			       <div class="single-sample">
+				        <a class="uk-inline" href="images/car-2.jpg" data-caption="">
+				            <img class="card" src="images/car-2.jpg" alt="">
+				        </a>
+			        </div>
+			    </div>
+			    <div class="col-md-2 ">
+			        <div class="single-sample">
+				        <a class="uk-inline" href="images/car3.jpg" data-caption="">
+				            <img class="card" src="images/car3.jpg" alt="">
+				        </a>
+			        </div>
+			    </div>
+			    <div class="col-md-2 ">
+			        <div class="single-sample">
+				        <a class="uk-inline" href="images/car-4.jpg" data-caption="">
+				            <img class="card" src="images/car-4.jpg" alt="">
+				        </a>
+			        </div>
+			    </div> 
+			    <div class="col-md-2">
+			        <div class="single-sample">
+				        <a class="uk-inline" href="images/car5.jpg" data-caption="">
+				            <img class="card" src="images/car5.jpg" alt="">
+				        </a>
+			        </div>
+			    </div>
+			    <div class="col-md-2">
+			        <div class="single-sample">
+				        <a class="uk-inline" href="images/car5.jpg" data-caption="">
+				            <img class="card" src="images/car6.jpg" alt="">
+				        </a>
+			        </div>
+			    </div>
+			    <div class="col-md-2 ">
+			        <div class="single-sample">
+				        <a class="uk-inline" href="images/car-4.jpg" data-caption="">
+				            <img class="card" src="images/car-4.jpg" alt="">
+				        </a>
+			        </div>
+			    </div> 
+			    <div class="col-md-2">
+			        <div class="single-sample">
+				        <a class="uk-inline" href="images/car5.jpg" data-caption="">
+				            <img class="card" src="images/car5.jpg" alt="">
+				        </a>
+			        </div>
+			    </div>
+			    <div class="col-md-2">
+			        <div class="single-sample">
+				        <a class="uk-inline" href="images/car5.jpg" data-caption="">
+				            <img class="card" src="images/car6.jpg" alt="">
+				        </a>
+			        </div>
+			    </div>
+			    <div class="col-md-2 ">
+			    	<div class="single-sample">
+				        <a class="uk-inline" href="images/car1.jpg" data-caption="">
+				            <img class="card" src="images/car1.jpg" alt="">
+				        </a>
+			        </div>
+			    </div>
+			    <div class="col-md-2 ">
+			       <div class="single-sample">
+				        <a class="uk-inline" href="images/car-2.jpg" data-caption="">
+				            <img class="card" src="images/car-2.jpg" alt="">
+				        </a>
+			        </div>
+			    </div>
+			    <div class="col-md-2 ">
+			        <div class="single-sample">
+				        <a class="uk-inline" href="images/car3.jpg" data-caption="">
+				            <img class="card" src="images/car3.jpg" alt="">
+				        </a>
+			        </div>
+			    </div>
+			    <div class="col-md-2 ">
+			    	<div class="single-sample">
+				        <a class="uk-inline" href="images/car1.jpg" data-caption="">
+				            <img class="card" src="images/car1.jpg" alt="">
+				        </a>
+			        </div>
+			    </div>
+			    <div class="col-md-2 ">
+			       <div class="single-sample">
+				        <a class="uk-inline" href="images/car-2.jpg" data-caption="">
+				            <img class="card" src="images/car-2.jpg" alt="">
+				        </a>
+			        </div>
+			    </div>
+			    <div class="col-md-2 ">
+			        <div class="single-sample">
+				        <a class="uk-inline" href="images/car3.jpg" data-caption="">
+				            <img class="card" src="images/car3.jpg" alt="">
+				        </a>
+			        </div>
+			    </div>
+			    <div class="col-md-2 ">
+			        <div class="single-sample">
+				        <a class="uk-inline" href="images/car-4.jpg" data-caption="">
+				            <img class="card" src="images/car-4.jpg" alt="">
+				        </a>
+			        </div>
+			    </div> 
+			    <div class="col-md-2">
+			        <div class="single-sample">
+				        <a class="uk-inline" href="images/car5.jpg" data-caption="">
+				            <img class="card" src="images/car5.jpg" alt="">
+				        </a>
+			        </div>
+			    </div>
+			    <div class="col-md-2">
+			        <div class="single-sample">
+				        <a class="uk-inline" href="images/car5.jpg" data-caption="">
+				            <img class="card" src="images/car6.jpg" alt="">
+				        </a>
+			        </div>
+			    </div>
+			    <div class="col-md-2 ">
+			        <div class="single-sample">
+				        <a class="uk-inline" href="images/car-4.jpg" data-caption="">
+				            <img class="card" src="images/car-4.jpg" alt="">
+				        </a>
+			        </div>
+			    </div> 
+			    <div class="col-md-2">
+			        <div class="single-sample">
+				        <a class="uk-inline" href="images/car5.jpg" data-caption="">
+				            <img class="card" src="images/car5.jpg" alt="">
+				        </a>
+			        </div>
+			    </div>
+			    <div class="col-md-2">
+			        <div class="single-sample">
+				        <a class="uk-inline" href="images/car5.jpg" data-caption="">
+				            <img class="card" src="images/car6.jpg" alt="">
+				        </a>
+			        </div>
+			    </div>
+			    <div class="col-md-2 ">
+			    	<div class="single-sample">
+				        <a class="uk-inline" href="images/car1.jpg" data-caption="">
+				            <img class="card" src="images/car1.jpg" alt="">
+				        </a>
+			        </div>
+			    </div>
+			    <div class="col-md-2 ">
+			       <div class="single-sample">
+				        <a class="uk-inline" href="images/car-2.jpg" data-caption="">
+				            <img class="card" src="images/car-2.jpg" alt="">
+				        </a>
+			        </div>
+			    </div>
+			    <div class="col-md-2 ">
+			        <div class="single-sample">
+				        <a class="uk-inline" href="images/car3.jpg" data-caption="">
+				            <img class="card" src="images/car3.jpg" alt="">
+				        </a>
+			        </div>
+			    </div>
+			</div>
+ 	</div>
+ </section>
+ <!-- Price Table Section -->
+ <section class="price-table-section">
+ 	<div class="container">
+ 		<h2 class="section-title"
+ 		>Pricing and plan</h2>
+ 		<div class="row">
+ 			<div class="col-md-4">
+ 				<div class="card single-price-table wow animate__animated animate__slideInLeft" data-wow-duration="2s">
+ 					<h3 class="title">BASIC</h3>
+	 				<div class="icon-area">
+	 					<i class="fas fa-cogs"></i>
+	 				</div>
+	 				<p class="price">$ 19/ <span>mon</span></p>
+	 				<div class="price-btn">
+	 					<a class="btn-1 basic-price-button" href="#">Get Started</a>
+	 				</div>
+	 				<div class="price-feature-info">
+	 					<p><i class="fas fa-check"></i> 03 projects</p>
+	 					<p><i class="fas fa-check"></i> Quality & Customer Experience</p>
+	 					<p><i class="fas fa-check"></i> Try for free, forever!</p>
+	 				</div>
+ 				</div>
+ 			</div>
+ 			<div class="col-md-4 center-table">
+ 				<div class="card single-price-table professional-table wow animate__animated animate__slideInUp" data-wow-duration="2s">
+ 					<h3 class="title">PROFESSIONAL</h3>
+	 				<div class="icon-area">
+	 					<i class="fas fa-cogs"></i>
+	 				</div>
+	 				<p class="price">$ 49/ <span>mon</span></p>
+	 				<div class="price-btn">
+	 					<a class="btn-2 professional-price-button" href="#">Get Started</a>
+	 				</div>
+	 				<div class="price-feature-info">
+	 					<p><i class="fas fa-check"></i> Unlimited project</p>
+	 					<p><i class="fas fa-check"></i> Power And Predictive Dialing</p>
+	 					<p><i class="fas fa-check"></i> Quality & Customer Experience</p>
+	 					<p><i class="fas fa-check"></i> 24/7 phone and email support</p>
+	 				</div>
+ 				</div>
+ 			</div>
+ 			<div class="col-md-4 ">
+ 				<div class="card single-price-table wow animate__animated animate__slideInRight" data-wow-duration="2s">
+ 					<h3 class="title">STANDARD</h3>
+	 				<div class="icon-area">
+	 					<i class="fas fa-cogs"></i>
+	 				</div>
+	 				<p class="price">$ 39/ <span>mon</span></p>
+	 				<div class="price-btn">
+	 					<a class="btn-1 basic-price-button" href="#">Get Started</a>
+	 				</div>
+	 				<div class="price-feature-info">
+	 					<p><i class="fas fa-check"></i>10 projects</p>
+	 					<p><i class="fas fa-check"></i> Power And Predictive Dialing</p>
+	 					<p><i class="fas fa-check"></i>Quality & Customer Experience</p>
+	 				</div>
+ 				</div>
+ 			</div>
+ 		</div>
+ 	</div>
+ </section>
+ <!-- feature service section -->
+ <section class="feature-service-section wow animate__animated animate__pulse"  data-wow-duration="2s">
+ 	<div class="container">
+ 		<h2 class="section-title">Feature Services</h2>
+ 		<div class="row">
+ 			<div class="col-md-4">
+ 				<div class="feature-ser-info">
+ 					<p><i class="fas fa-check"></i><span>Car Text Up And Banner Adding</span></p>
+ 					<p><i class="fas fa-check"></i><span>Car Text Up And Banner Adding</span></p>
+ 					<p><i class="fas fa-check"></i><span>Car Text Up And Banner Adding</span></p>
+ 					<p><i class="fas fa-check"></i><span>Car Text Up And Banner Adding</span></p>
+ 				</div>
+ 			</div>
+ 			<div class="col-md-4">
+ 				<div class="feature-ser-info">
+ 					<p><i class="fas fa-check"></i><span>Car Text Up And Banner Adding</span></p>
+ 					<p><i class="fas fa-check"></i><span>Car Text Up And Banner Adding</span></p>
+ 					<p><i class="fas fa-check"></i><span>Car Text Up And Banner Adding</span></p>
+ 					<p><i class="fas fa-check"></i><span>Car Text Up And Banner Adding</span></p>
+ 				</div>
+ 			</div>
+ 			<div class="col-md-4">
+ 				<div class="feature-ser-info">
+ 					<p><i class="fas fa-check"></i><span>Car Text Up And Banner Adding</span></p>
+ 					<p><i class="fas fa-check"></i><span>Car Text Up And Banner Adding</span></p>
+ 					<p><i class="fas fa-check"></i><span>Car Text Up And Banner Adding</span></p>
+ 					<p><i class="fas fa-check"></i><span>Car Text Up And Banner Adding</span></p>
+ 				</div>
+ 			</div>
+ 		</div>
+ 		<div class="feature-ser-button">
+ 			<a class="btn-2" href="#">Get Started</a>
+ 		</div>
+ 	</div>
+ </section>
+ <!-- we are best section -->
+ <section class="we-are-best-section">
+ 	<div class="container">
+ 		<h2 class="section-title">Why we are the best for car images editing service</h2>
+ 		<p class="title-text">We have well trained and experienced graphic designer who are able to make your photos more interesting</p>
+ 		<div class="row">
+ 			<div class="col-md-6">
+ 				<div class="we-are-best-info">
+ 					<h3 class="title">Here is a couple of service features-</h3>
+ 					<p><i class="fas fa-check"></i><span>24/7 customer service </span></p>
+ 					<p><i class="fas fa-check"></i><span>Delivery within 24 hrs </span></p>
+ 					<p><i class="fas fa-check"></i><span>3000+daily images production</span></p>
+ 					<p><i class="fas fa-check"></i><span>Weekly/Monthly Invoice Opportunity</span></p>
+ 					<p><i class="fas fa-check"></i><span>Unlimited images editing revisions</span></p>
+ 				</div>
+ 			</div>
+ 			<div class="col-md-6">
+ 				<div class="we-are-best-image wow animate__animated animate__slideInRight"  data-wow-duration="2s">
+ 					<img src="images/car1.jpg">
+ 				</div>
+ 			</div>
+ 		</div>
+ 	</div>
+ </section>
+ <!-- footer Section -->
+ <footer>
+ 	<div class="container">
+ 		<div class="row">
+ 			<div class="col-md-4">
+ 				<img width="100" height="50" src="images/logo.png">
+ 				<p class="title-info">Buy & sell online with Dhamaka.<br>
+ 				 Trust,quality & best customer experience at one place.</p>
+ 				<h3 class="title">Address</h3>
+ 				<address class="title-info">AQUA TOWER, LEVEL#8,<br>
+ 				43 BIR UTTAM AK KHANDAKAR SARAK,<br>
+ 				MOHAKHALI C/A, GULSHAN, DHAKA - 1212<br><br>
+ 				<span style="font-weight: 600;margin-right:8px;">Phome :</span><span>01800000000</span><br>
+ 				<span style="font-weight: 600;margin-right:8px;">Email :</span><span>youremail@email.com</span>
+
+ 			</address>
+
+ 			</div>
+ 			<div class="col-md-3">
+ 				<h2>Services</h2>
+ 				<a class="title-info" href="#">Car Image Edite</a>
+ 				<a class="title-info" href="#">Image Retouching</a>
+ 				<a class="title-info" href="#">Image Reflection Shadow</a>
+ 			</div>
+ 			<div class="col-md-2">
+ 				<h2>support</h2>
+ 				<a class="title-info" href="#">Contact Us</a>
+ 				<a class="title-info" href="#">Online Team</a>
+ 				<a class="title-info" href="#">Help Center</a>
+ 			</div>
+ 			<div class="col-md-3">
+ 				 <h2>Follow us</h2>
+                    <div class="social-footer">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    </div>
+ 			</div>
+ 		</div>
+ 		<div class="row news-letter-area card">
+ 			<div class="row p-2">
+	 			<div class="col-md-6">
+	 				<div class="row">
+	 					<div class="left-icon"><i class="fas fa-envelope-open-text"></i></div>
+	 					<div class="news-latter-info">
+	 						<h3 class="mb-0 mt-2 section-title">Sign Up Newsletter </h3>
+	 						<p class="title-info my-2">Get E-mail updates about our latest shop and special offers.</p>
+	 					</div>
+	 				</div>
+	 			</div>
+	 			<div class="col-md-6">
+	 				<div class="input-email-area">
+	 					<input type="email" name="emil" placeholder="Enter Your Email">
+	 					<button class="news-letter-button"><i class="fas fa-paper-plane"></i></button>
+	 				</div>
+	 			</div>
+	 		</div>
+	 	</div>
+ 		<hr>
+ 		<div class="copyright-footer">
+ 			<div class="row">
+ 				<div class="col-md-8 d-flex align-items-center">
+ 					<p class="mb-0">Copyright © 2021 Autocar, Limon Rana Dev. Bangladesh Ltd.</p>
+ 				</div>
+ 				<div class="col-md-4">
+ 					<div class="payment-images d-flex justify-content-end">
+ 						<img class="mx-2" width="60"  src="images/visa.svg">
+ 						<img class="mx-2" width="60"  src="images/amex.svg">
+ 						<img class="mx-2" width="60"  src="images/mastercard.svg">
+ 						<img class="mx-2" width="200"  src="images/cash-on-delivery.svg">
+ 					</div>
+ 				</div>
+ 			</div>
+ 		</div>
+ 	</div>
+ </footer>
+     <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <!-- Owl carousel js -->
+    <script src="vendors/js/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- wow js -->
+    <script src="vendors/js/wow.min.js"></script>
+    <!-- uikit js -->
+    <script src="vendors/js/uikit.min.js"></script>
+    <!-- main js  -->
+    <script src="asset/js/main.js"></script>
+  </body>
+</html>
