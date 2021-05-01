@@ -513,6 +513,8 @@ header .main-nav .main-nav-link ul li a.active {
 .our-company-section  .our-company-video {}
 .our-company-section  .our-company-video .iframe-rep-image {
 	position:  relative;
+	width: 100%;
+	height: 100%;
 }
 .our-company-section  .our-company-video .iframe-rep-image .overly-with-icon {
 	position:  absolute;
