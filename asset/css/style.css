@@ -51,7 +51,7 @@ h1 , h2, h3, h4, h5, h6 {
 	font-family: 'Poppins-Medium', sans-serif;
 }
 a:hover {
-	text-decoration: none;
+	text-decoration: none; 
 }
 .btn-1 {
 	/*background: #38B7CA;
@@ -459,7 +459,13 @@ header .main-nav .main-nav-link ul li a.active {
 	text-align: justify;
 }
 
-
+@media only screen and (max-width: 768px) {
+	.service-section {
+	padding: 10px;
+	background: #3d00ca;
+	padding-top: 30px;
+}
+}
 
 /*
 =======================================
@@ -529,9 +535,21 @@ header .main-nav .main-nav-link ul li a.active {
 	color:#fff;
 	font-size: 100px;
 }
-@media (max-width: 768px) {
-
+.our-company-section .iframe-rep-image iframe {
+	width: 98%;
+	height: 98%;
 }
+@media (max-width: 768px) {
+	.our-company-section .our-company-video .iframe-rep-image iframe {
+    width: 650px !important;
+    height: 400px !important;
+    margin-top: 20px;
+}
+.our-company-section .our-company-video .iframe-rep-image {
+		margin:auto;
+	}
+}
+
 @media (max-width: 575px) {
 	.our-company-section {
 		margin:20px 0px;
@@ -565,7 +583,23 @@ header .main-nav .main-nav-link ul li a.active {
     margin-left: 5%;
     margin-bottom: 20px;
 	}
+	.our-company-section  .our-company-video .iframe-rep-image iframe {
+	width: 98% !important;
+	height: 98% !important;
+}
+.our-company-section .our-company-video .iframe-rep-image {
+		margin:auto;
+	}
 
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+	.our-company-section .our-company-video .iframe-rep-image {
+		margin:auto;
+	}
+	.our-company-section .our-company-video .iframe-rep-image iframe {
+    width: 700px !important;
+    height: 415px !important;
+}
 }
 /*
 =======================================
@@ -630,11 +664,23 @@ header .main-nav .main-nav-link ul li a.active {
 	text-align: center;
 	border:1px solid #999;
 }
-.our-client-section .clients-logo-area img {}
+.our-client-section .clients-logo-area img {
+	margin-left: auto;
+	margin-right:auto;
+}
 @media (max-width: 575px) {
+	.our-client-section {
+	padding:0px;
+}
 	.our-client-section .section-title {
 		font-size: 35px;
 	}
+	.our-client-section  img {
+	margin-left: auto;
+	margin-right:auto;
+	width: 100%;
+}
+
 }
 /*=================================
 1.8 wan to see section
@@ -1035,6 +1081,11 @@ footer .container p {
 	color: #FFF !important;
 	opacity: 0.8;
 }
+footer .container .news-title,
+footer .container .news-heading
+ {
+	color: #7F00FF !important;
+}
 footer .social-footer {
 	 display:flex;
     list-style: none;
@@ -1106,6 +1157,25 @@ footer .social-footer  a i {
 }
 .payment-images img {
 	
+}
+@media only screen and (max-width: 768px ) {
+	.news-letter-area {
+    height: 100%;
+    margin: 15px 0px;
+    padding: 15px;
+    : 1;
+    padding: 2;
+}
+	footer .copyright-footer .payment-images img {
+		width: 14%;
+	}
+	footer .copyright-footer .payment-images img:last-child {
+		width: 35%;
+	}
+	footer .copyright-footer .copyright-title {
+		text-align: center;
+		width: 100%;
+	}
 }
 /*
 ===============================================================
