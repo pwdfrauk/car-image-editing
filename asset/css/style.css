@@ -1178,7 +1178,23 @@ footer .social-footer  a i {
 		text-align: center;
 		width: 100%;
 	}
+	.left-icon {
+	font-size: 55px;
+	color:#7F00FF;
+	margin:0px;
+
 }
+}
+
+@media only screen and (max-width: 576px ) {
+	.left-icon {
+	font-size: 37px;
+	color:#7F00FF;
+	margin:0px;
+
+}
+}
+
 /*
 ===============================================================
 =======================2. Contact Us page =====================
