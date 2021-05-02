@@ -35,7 +35,7 @@
                             <li><a href="index.html">Home</a></li>
                             <li><a href="aboutus.html">About Us</a></li>
                             <li><a href="contactus.html">Contact us</a></li>
-                            <li><a class="active" href="#">Blog</a></li>
+                            <li><a class="active" href="blog.html">Blog</a></li>
                         </ul>
                         <div class="mobile-menu">
                             <span onClick="openNav()" class="mobile-menu-icon"><i class="fas fa-bars"></i></span>
@@ -45,7 +45,7 @@
                                     <a onClick="clossNav()" href="index.html">home</a>
                                     <a onClick="clossNav()" href="aboutus.html">About Us</a>
                                     <a onClick="clossNav()" href="contactus.html">Contact us</a>
-                                    <a onClick="clossNav()" href="#">Blog</a>
+                                    <a onClick="clossNav()" href="blog.html">Blog</a>
                                 </div>
                             </div>
                         </div>
@@ -55,151 +55,89 @@
     </header>
     <section>
         <div class="container">
-             <h2 class="page-title">Blog update</h2>
+             <h2 class="page-title">Single Post</h2>
         </div>
     </section>
     <!-- bloging area  -->
-    <div class="container">
-        <div class="row">
-        <!-- blog post area  -->
-        <div class="col-md-8">
-                <!-- BLOG POST SINGLE AREA  -->
-                 <div class="per-blog-post">
-                    <!-- post iamge -->
-                      <div class="blog-img-area">
-                          <img class="rounded" src="images/blog-img.jpg">
-                      </div>
-                      <!-- post description AREA  -->
-                      <div class="blog-info-area">
-                        <!-- category  -->
-                        <div class="category-post py-2">
-                              <span class="pr-2"><a href="#">Success,</a></span><span class="pr-2"><a href="#">Tips</a></span>
-                        </div>
-                        <!-- POST TIETLE -->
-                          <div class="blog-title">
-                              <h2><a href="single.html">The Ultimate Guide To Car Shadow Making</a></h2>
-                          </div> 
-                          <!-- post author info  -->
-                          <div class="post-author-info ">
-                              <div class="row align-items-center mx-2">
-                                <a class="d-flex mr-2 align-items-center" href="#">
-                                  <div class="author-img">
-                                    <!-- AUTHOR IMAGE -->
-                                      <img   width="32"  src="images/testimonial-img.jpg">
+    <section class="pt-md-5 pb-md-5 mb-md-2">
+          <div class="container">
+           <div class="row">
+            <!-- blog post area  -->
+            <div class="col-md-12">
+                    <!-- BLOG POST SINGLE AREA  -->
+                     <div class="single-blog-post">
+                        <!-- post iamge -->
+                          <div class="blog-img-area">
+                              <img class="rounded" src="images/blog-img.jpg">
+                          </div>
+                          <!-- post description AREA  -->
+                          <div class="blog-info-area">
+                            <!-- category  -->
+                            <div class="category-post py-2">
+                                  <span class="pr-2"><a href="#">Success,</a></span><span class="pr-2"><a href="#">Tips</a></span>
+                            </div>
+                            <!-- POST TIETLE -->
+                              <div class="blog-title">
+                                  <h2><a href="#">The Ultimate Guide To Car Shadow Making</a></h2>
+                              </div> 
+                              <!-- post author info  -->
+                              <div class="post-author-info ">
+                                  <div class="row align-items-center mx-2">
+                                    <a class="d-flex mr-2 align-items-center" href="#">
+                                      <div class="author-img">
+                                        <!-- AUTHOR IMAGE -->
+                                          <img   width="32"  src="images/testimonial-img.jpg">
+                                      </div>
+                                      <!-- AUTHOUR NAME -->
+                                      <span class="author-name mx-2">Harry Ferguson</span>
+                                    </a>
+                                    <!-- POST DATE & TIME -->
+                                    <div class="post-date-time mx-md-2">
+                                        <i class="mx-2 far fa-calendar"></i> <span>April 18, 2021</span>
+                                    </div>
+                                    <!-- POST TOTAL VIEWS -->
+                                    <div class="post-view mx-md-2">
+                                        <i class="mx-2 fas fa-eye"></i> <span>346 views</span>
+                                    </div>
                                   </div>
-                                  <!-- AUTHOUR NAME -->
-                                  <span class="author-name mx-2">Harry Ferguson</span>
-                                </a>
-                                <!-- POST DATE & TIME -->
-                                <div class="post-date-time mx-md-2">
-                                    <i class="mx-2 far fa-calendar"></i> <span>April 18, 2021</span>
-                                </div>
-                                <!-- POST TOTAL VIEWS -->
-                                <div class="post-view mx-md-2">
-                                    <i class="mx-2 fas fa-eye"></i> <span>346 views</span>
-                                </div>
                               </div>
-                          </div>
-                          <!-- POST SHORT DESCRIPTION -->
-                          <div class="blog-post-des mt-4">
-                              <p>Using the profit accumulator is one such way, and you should understand why it increases your chances of the profits. …</p>
-                              <a class="title-link" href="single.html">Read More</a>
-                          </div>
-                    </div>
-                </div>
-                 <!-- BLOG POST SINGLE AREA  -->
-                 <div class="per-blog-post">
-                    <!-- post iamge -->
-                      <div class="blog-img-area">
-                          <img class="rounded" src="images/blog-img.jpg">
-                      </div>
-                      <!-- post description AREA  -->
-                      <div class="blog-info-area">
-                        <!-- category  -->
-                        <div class="category-post py-2">
-                              <span class="pr-2"><a href="#">Success,</a></span><span class="pr-2"><a href="#">Tips</a></span>
+                              <!-- POST SHORT DESCRIPTION -->
+                              <div class="blog-post-des mt-4">
+                                <h4 class="single-post-title">Using the profit accumulator is one such way</h4>
+                                  <p class="single-post-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                  <h4 class="single-post-title">Using the profit accumulator is one such way</h4>
+                                  <p class="single-post-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                  <h4 class="single-post-title">Using the profit accumulator is one such way</h4>
+                                  <p class="single-post-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                  <h4 class="single-post-title">Using the profit accumulator is one such way</h4>
+                                  <p class="single-post-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                              </div>
                         </div>
-                        <!-- POST TIETLE -->
-                          <div class="blog-title">
-                              <h2><a href="#">The Ultimate Guide To Car Shadow Making</a></h2>
-                          </div> 
-                          <!-- post author info  -->
-                          <div class="post-author-info ">
-                              <div class="row align-items-center mx-2">
-                                <a class="d-flex mr-2 align-items-center" href="#">
-                                  <div class="author-img">
-                                    <!-- AUTHOR IMAGE -->
-                                      <img   width="32"  src="images/testimonial-img.jpg">
-                                  </div>
-                                  <!-- AUTHOUR NAME -->
-                                  <span class="author-name mx-2">Harry Ferguson</span>
-                                </a>
-                                <!-- POST DATE & TIME -->
-                                <div class="post-date-time mx-md-2">
-                                    <i class="mx-2 far fa-calendar"></i> <span>April 18, 2021</span>
-                                </div>
-                                <!-- POST TOTAL VIEWS -->
-                                <div class="post-view mx-md-2">
-                                    <i class="mx-2 fas fa-eye"></i> <span>346 views</span>
-                                </div>
-                              </div>
-                          </div>
-                          <!-- POST SHORT DESCRIPTION -->
-                          <div class="blog-post-des mt-4">
-                              <p>Using the profit accumulator is one such way, and you should understand why it increases your chances of the profits. …</p>
-                              <a class="title-link" href="#">Read More</a>
-                          </div>
                     </div>
-                </div>
-                 <!-- BLOG POST SINGLE AREA  -->
-                 <div class="per-blog-post">
-                    <!-- post iamge -->
-                      <div class="blog-img-area">
-                          <img class="rounded" src="images/blog-img.jpg">
-                      </div>
-                      <!-- post description AREA  -->
-                      <div class="blog-info-area">
-                        <!-- category  -->
-                        <div class="category-post py-2">
-                              <span class="pr-2"><a href="#">Success,</a></span><span class="pr-2"><a href="#">Tips</a></span>
-                        </div>
-                        <!-- POST TIETLE -->
-                          <div class="blog-title">
-                              <h2><a href="#">The Ultimate Guide To Car Shadow Making</a></h2>
-                          </div> 
-                          <!-- post author info  -->
-                          <div class="post-author-info ">
-                              <div class="row align-items-center mx-2">
-                                <a class="d-flex mr-2 align-items-center" href="#">
-                                  <div class="author-img">
-                                    <!-- AUTHOR IMAGE -->
-                                      <img   width="32"  src="images/testimonial-img.jpg">
-                                  </div>
-                                  <!-- AUTHOUR NAME -->
-                                  <span class="author-name mx-2">Harry Ferguson</span>
-                                </a>
-                                <!-- POST DATE & TIME -->
-                                <div class="post-date-time mx-md-2">
-                                    <i class="mx-2 far fa-calendar"></i> <span>April 18, 2021</span>
-                                </div>
-                                <!-- POST TOTAL VIEWS -->
-                                <div class="post-view mx-md-2">
-                                    <i class="mx-2 fas fa-eye"></i> <span>346 views</span>
-                                </div>
-                              </div>
-                          </div>
-                          <!-- POST SHORT DESCRIPTION -->
-                          <div class="blog-post-des mt-4">
-                              <p>Using the profit accumulator is one such way, and you should understand why it increases your chances of the profits. …</p>
-                              <a class="title-link" href="#">Read More</a>
-                          </div>
-                    </div>
-                </div>
-        </div>
+             </div>
         <!-- side bar  -->
-        <div class="col-md-4">
+            <!--<div class="col-md-4">
             <div class="side-bar-area">
-                <!-- search wedget  -->
                 <div class="sidebar-widget " >
                     <div class="widget-title">
                         <h4 class="sidebar-widget-title">Search</h4>
@@ -215,7 +153,6 @@
                         </div>
                     </form>
                 </div>
-                <!--  -->
                 <div class="sidebar-widget mt-4">
                     <h4 class="sidebar-widget-title">Recent Posts</h4>
                         <ul class="recent-post-link">
@@ -236,7 +173,6 @@
                             </li>
                         </ul>
                 </div>
-                <!-- tags widget -->
                 <div class="sidebar-widget mt-4">
                     <h4 class="sidebar-widget-title">Tags</h4>
                         <div class="tags-list">
@@ -244,7 +180,6 @@
                             <a href="#">Backgound Remove</a>
                         </div> 
                 </div>
-                <!-- Category Widget -->
                 <div class="sidebar-widget mt-4">
                     <h4 class="sidebar-widget-title">Category</h4>
                         <div class="tags-list">
@@ -253,12 +188,13 @@
                         </div> 
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
 </div>
 <!-- post slider  -->
+    </section>
  <!-- testimonial -->
-   <section class="testimonial-section">
+   <section class="testimonial-section pt-0 pb-3">
        <div class="container">
            <h2 class="section-title">More Post</h2>
            <div class="post-slider owl-carousel">
